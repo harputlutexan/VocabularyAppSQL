@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><!--android:background="@drawable/circular_id"-->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle2"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.02"
+        android:background="@color/burak_background" />
+
+    <TextView
+        android:padding="@dimen/vertical_margin_low"
+        android:id="@+id/question_summary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/classic_black"
+        tools:text="Question" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.02"
+        android:background="@color/burak_summary_color" />
+
+
+    <TextView
+        android:padding="@dimen/vertical_margin_low"
+        android:id="@+id/user_answer_summary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/classic_black"
+        tools:text="User Answer" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.02"
+        android:background="@color/burak_summary_color"/>
+
+    <TextView
+        android:padding="@dimen/vertical_margin_low"
+        android:id="@+id/correct_answer_summary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/classic_black"
+        tools:text="Correct Answer" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.02"
+        android:background="@color/burak_background" />
+
+
+</LinearLayout>

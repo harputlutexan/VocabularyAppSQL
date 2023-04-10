@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/burak_background"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/google_games_image"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_achievementsbutton"/>
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/TOEFL_i_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/achievement_TOEFL_i"
+                    />
+                <TextView
+                    style="@style/statistics_bottom_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/achievement_TOEFL_i_desc"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/TOEFL_i_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/TOEFL_i_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/TOEFL_i_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_5" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/TOEFL_ii_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEFL_ii"
+                    />
+
+                <TextView
+                    style="@style/statistics_bottom_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEFL_ii_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/TOEFL_ii_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/TOEFL_ii_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/TOEFL_ii_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_5" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/TOEFL_iii_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEFL_iii"
+                    />
+
+                <TextView
+                    style="@style/statistics_bottom_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEFL_iii_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/TOEFL_iii_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/TOEFL_iii_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/TOEFL_iii_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/TOEFL_iv_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEFL_iv"
+                    />
+
+                <TextView
+                    style="@style/statistics_bottom_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEFL_iv_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/TOEFL_iv_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/TOEFL_iv_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/TOEFL_iv_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/TOEFL_v_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEFL_v"
+                    />
+
+                <TextView
+                    style="@style/statistics_bottom_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEFL_v_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/TOEFL_v_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/TOEFL_v_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/TOEFL_v_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_15" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/TOEFL_vi_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEFL_vi"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEFL_vi_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/TOEFL_vi_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/TOEFL_vi_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/TOEFL_vi_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/IELTS_i_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_IELTS_i"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_IELTS_i_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/IELTS_i_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/IELTS_i_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/IELTS_i_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_5" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/IELTS_ii_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_IELTS_ii"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_IELTS_ii_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/IELTS_ii_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/IELTS_ii_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/IELTS_ii_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_5" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/IELTS_iii_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_IELTS_iii"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_IELTS_iii_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/IELTS_iii_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/IELTS_iii_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/IELTS_iii_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/IELTS_iv_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_IELTS_iv"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_IELTS_iv_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/IELTS_iv_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/IELTS_iv_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/IELTS_iv_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/IELTS_v_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_IELTS_v"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_IELTS_v_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/IELTS_v_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/IELTS_v_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/IELTS_v_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_15" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/IELTS_vi_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_IELTS_vi"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_IELTS_vi_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/IELTS_vi_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/IELTS_vi_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/IELTS_vi_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/GRE_i_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_GRE_i"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_GRE_i_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/GRE_i_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/GRE_i_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/GRE_i_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_5" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/GRE_ii_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_GRE_ii"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_GRE_ii_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/GRE_ii_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/GRE_ii_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/GRE_ii_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_5" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/GRE_iii_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_GRE_iii"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_GRE_iii_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/GRE_iii_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/GRE_iii_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/GRE_iii_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/GRE_iv_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_GRE_iv"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_GRE_iv_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/GRE_iv_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/GRE_iv_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/GRE_iv_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/GRE_v_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_GRE_v"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_GRE_v_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/GRE_v_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/GRE_v_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/GRE_v_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_15" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/GRE_vi_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_GRE_vi"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_GRE_vi_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/GRE_vi_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/GRE_vi_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/GRE_vi_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/TOEIC_i_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/achievement_TOEIC_i"
+                    />
+                <TextView
+                    style="@style/statistics_bottom_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/achievement_TOEIC_i_desc"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/TOEIC_i_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/TOEIC_i_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/TOEIC_i_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_5" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/TOEIC_ii_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEIC_ii"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEIC_ii_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/TOEIC_ii_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/TOEIC_ii_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/TOEIC_ii_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_5" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/TOEIC_iii_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEIC_iii"
+                    />
+
+                <TextView
+                    style="@style/statistics_bottom_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEIC_iii_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/TOEIC_iii_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/TOEIC_iii_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/TOEIC_iii_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/TOEIC_iv_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEIC_iv"
+                    />
+
+                <TextView
+                    style="@style/statistics_bottom_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEIC_iv_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/TOEIC_iv_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/TOEIC_iv_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/TOEIC_iv_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/TOEIC_v_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEIC_v"
+                    />
+
+                <TextView
+                    style="@style/statistics_bottom_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEIC_v_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/TOEIC_v_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/TOEIC_v_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/TOEIC_v_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_15" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/TOEIC_vi_ach_image"
+                    style="@style/achievements_icon_style" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEIC_vi"
+                    />
+
+                <com.englishvocabularygame.evog.AutoResizeTextView
+                    style="@style/statistics_bottom_text_style"
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/achievement_TOEIC_vi_desc"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/TOEIC_vi_chk_img"
+                style="@style/achievements_check_style"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/TOEIC_vi_prgrss_bar"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/statistics_top_text_style"
+                    android:id="@+id/TOEIC_vi_prgrss_ratio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="% 0"
+
+                    />
+                <TextView
+                    style="@style/numbers_style_achievements"
+                    android:text="@string/experience_points_10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginBottom="@dimen/vertical_margin_low"
+            android:layout_marginTop="@dimen/vertical_margin_low" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

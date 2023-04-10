@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/burak_background"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/sign_out_bar"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/google_games_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:src="@drawable/profile_picture"
+            ads:layout_constraintLeft_toLeftOf="parent"
+            ads:layout_constraintTop_toTopOf="parent"
+            ads:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/google_signout_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:text="@string/signed_in_google_play"
+            android:textColor="@color/burak_text_color"
+            android:textStyle="bold"
+            ads:layout_constraintLeft_toRightOf="@+id/google_games_image"
+            ads:layout_constraintRight_toRightOf="parent"
+            ads:layout_constraintBottom_toBottomOf="parent"
+            ads:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintBottom_creator="1"
+            />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/sign_in_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/double_space_height" />
+
+        <TextView
+            android:id="@+id/google_signin_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:gravity="center"
+            android:text="@string/not_signed"
+            android:textColor="@color/burak_text_color"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/vertical_margin_low"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:id="@+id/first_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profilefirst_button"
+            ads:layout_constraintBottom_toBottomOf="parent"
+            ads:layout_constraintLeft_toLeftOf="parent"
+            ads:layout_constraintRight_toRightOf="parent"
+            ads:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/level_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/classic_white"
+            android:textSize="18sp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:text="@string/level"
+            ads:layout_constraintBottom_toBottomOf="@+id/first_frame"
+            ads:layout_constraintLeft_toLeftOf="@+id/first_frame"
+            ads:layout_constraintTop_toTopOf="@+id/first_frame"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintBottom_creator="1"
+            android:layout_marginStart="@dimen/activity_vertical_margin" />
+
+        <TextView
+            android:id="@+id/level"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@color/classic_white"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text=""
+            ads:layout_constraintTop_toTopOf="@+id/first_frame"
+            ads:layout_constraintBottom_toBottomOf="@+id/first_frame"
+            ads:layout_constraintRight_toRightOf="@+id/first_frame"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <FrameLayout
+            android:id="@+id/second_frame"
+            ads:layout_constraintBottom_toBottomOf="parent"
+            ads:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:layout_constraintRight_toRightOf="parent"
+            android:background="@drawable/profilefirst_button"
+            ads:layout_constraintLeft_toLeftOf="parent">
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/highest_score_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/classic_white"
+            android:textSize="18sp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:text="@string/highest_score"
+            ads:layout_constraintBottom_toBottomOf="@+id/second_frame"
+            ads:layout_constraintLeft_toLeftOf="@+id/second_frame"
+            ads:layout_constraintTop_toTopOf="@+id/second_frame"
+            android:layout_marginStart="@dimen/activity_vertical_margin" />
+
+        <TextView
+            android:id="@+id/highest_score"
+            android:textColor="@color/classic_white"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text=""
+            ads:layout_constraintTop_toTopOf="@+id/second_frame"
+            ads:layout_constraintBottom_toBottomOf="@+id/second_frame"
+            ads:layout_constraintRight_toRightOf="@+id/second_frame"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <FrameLayout
+            android:id="@+id/third_frame"
+            android:layout_width="wrap_content"
+            ads:layout_constraintBottom_toBottomOf="parent"
+            ads:layout_constraintTop_toTopOf="parent"
+            android:layout_height="wrap_content"
+            ads:layout_constraintRight_toRightOf="parent"
+            android:background="@drawable/profilefirst_button"
+            tools:layout_constraintLeft_creator="1"
+            ads:layout_constraintLeft_toLeftOf="parent">
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/average_time_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/average_time"
+            android:textColor="@color/classic_white"
+            android:textSize="18sp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            ads:layout_constraintBottom_toBottomOf="@+id/third_frame"
+            ads:layout_constraintLeft_toLeftOf="@+id/third_frame"
+            ads:layout_constraintTop_toTopOf="@+id/third_frame"
+            android:layout_marginStart="@dimen/activity_vertical_margin" />
+
+        <TextView
+            android:id="@+id/average_time"
+            android:textColor="@color/classic_white"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text=""
+            ads:layout_constraintTop_toTopOf="@+id/third_frame"
+            ads:layout_constraintBottom_toBottomOf="@+id/third_frame"
+            ads:layout_constraintRight_toRightOf="@+id/third_frame"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/leaderboard_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ImageButton
+            android:id="@+id/fourth_frame"
+            android:layout_width="wrap_content"
+            ads:layout_constraintBottom_toBottomOf="parent"
+            ads:layout_constraintTop_toTopOf="parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_leaderboard"
+            ads:layout_constraintRight_toRightOf="parent"
+            ads:layout_constraintLeft_toLeftOf="parent"
+            tools:ignore="ContentDescription">
+        </ImageButton>
+    </android.support.constraint.ConstraintLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_topBanner_transitionPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/vertical_margin_low"
+        ads:adSize="BANNER"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        ads:adUnitId="@string/profile_page_banner">
+
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
+
+
+
+

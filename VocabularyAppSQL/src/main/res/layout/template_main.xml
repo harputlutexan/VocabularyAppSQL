@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/burak_background"
+    android:orientation="vertical"
+    tools:context="com.englishvocabularygame.evog.MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/burak_false_color"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/title_bar"
+        android:layout_height="wrap_content">
+
+        <com.englishvocabularygame.evog.AutoResizeTextView
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name_top_bar"
+            android:textSize="18sp"
+            android:lines="1"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="@dimen/vertical_margin_low"
+            android:textColor="@color/classic_white"/>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:id="@+id/settings_icon"
+            android:layout_height="match_parent"
+            android:focusable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/vertical_margin_low"
+            android:layout_height="wrap_content"
+            android:src="@drawable/settings_icon"
+     />
+        </FrameLayout>
+
+
+    </LinearLayout>
+    </FrameLayout>
+
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/maintabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        android:background="#eeeeee"
+        app:tabIndicatorColor="@color/burak_summary_color"
+        app:tabIndicatorHeight="3dp"
+        app:tabTextColor="@color/classic_black" />
+    <!--Burasi fragmentlarda yazilan yerler ile degistirilecek-->
+
+    <!--app:tabMaxWidth="0dp"-->
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
+    <!--app:tabSelectedTextColor="@color/actionbar_text_color"-->
+    <!--app:tabTextAppearance="@style/tab_text_style"-->
+    <!--<android.support.design.widget.TabLayout--><!--android:layout_marginTop="@dimen/vertical_margin_low"--><!--android:layout_marginBottom="@dimen/vertical_margin_low"--><!--android:id="@+id/tabs"--><!--app:tabMaxWidth="0dp"--><!--app:tabGravity="fill"--><!--app:tabMode="fixed"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--app:tabTextColor="@color/classic_white"--><!--app:tabBackground="@drawable/selected_tab"--><!--app:tabIndicatorColor="@color/pastel_red"--><!--app:tabIndicatorHeight="4dp"--><!--app:tabTextAppearance="@style/CategoryTabTextAppearance"--><!--app:tabSelectedTextColor="@color/classic_black" />-->

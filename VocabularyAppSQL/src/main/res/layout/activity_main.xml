@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--<ImageView--><!--android:id="@+id/setting_image"--><!--android:layout_width="52dp"--><!--android:layout_marginTop="@dimen/vertical_margin_low"--><!--android:layout_marginRight="@dimen/vertical_margin_low"--><!--android:translationZ="12dp"--><!--android:background="@drawable/circular_id"--><!--android:clickable="true"--><!--android:layout_height="52dp"--><!--android:src="@drawable/settings_icon2"--><!--android:layout_alignParentRight="true"--><!--android:layout_alignParentTop="true"/>-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/burak_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context="com.englishvocabularygame.evog.MainActivity"
+        >
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/layoutTimeReward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            >
+
+            <LinearLayout
+                android:id="@+id/reward_passing_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:background="@drawable/remaining_livestime"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_marginEnd="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/vertical_margin_low"
+                    android:src="@drawable/plusheart_icon"/>
+
+                <TextView
+                    android:id="@+id/remaining_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/vertical_margin_low"
+                    android:text="04:00:00"
+                    android:textColor="#424242"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/remaining_livestime"
+                android:button="@android:color/transparent" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layoutreward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            >
+
+            <RelativeLayout
+                android:id="@+id/reward_hak_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:background="@drawable/remaining_lives"
+                android:button="@android:color/transparent"
+                android:gravity="end|center"
+                android:visibility="visible"
+                >
+
+                <TextView
+                    android:id="@+id/remaining_life"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/vertical_margin_low"
+                    android:text="3"
+                    android:textColor="#424242"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+
+
+
+            <ImageButton
+                android:id="@+id/reward_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/selector_awardvideobutton"
+                android:button="@android:color/transparent" />
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/title_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/space_height"
+            android:text="@string/select_question" />
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/layout1"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin">
+
+            <CheckBox
+                android:id="@+id/select_question_type1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_toefl"
+                android:button="@android:color/transparent"
+                ads:layout_constraintEnd_toStartOf="@+id/select_question_type2"
+                ads:layout_constraintLeft_toLeftOf="parent"
+                ads:layout_constraintStart_toStartOf="parent" />
+
+            <CheckBox
+                android:id="@+id/select_question_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/selector_ielts"
+                android:button="@android:color/transparent"
+                ads:layout_constraintEnd_toEndOf="parent"
+                ads:layout_constraintStart_toEndOf="@+id/select_question_type1" />
+        </android.support.constraint.ConstraintLayout>
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/layout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin">
+
+            <CheckBox
+                android:id="@+id/select_question_type3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_gre"
+                android:button="@android:color/transparent"
+                android:visibility="visible"
+                ads:layout_constraintEnd_toStartOf="@+id/select_question_type4"
+                ads:layout_constraintLeft_toLeftOf="parent"
+                ads:layout_constraintStart_toStartOf="parent" />
+
+
+            <CheckBox
+                android:id="@+id/select_question_type4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/selector_toeic"
+                android:button="@android:color/transparent"
+                android:visibility="visible"
+                ads:layout_constraintRight_toRightOf="parent"
+                ads:layout_constraintStart_toEndOf="@+id/select_question_type3" />
+
+        </android.support.constraint.ConstraintLayout>
+
+
+
+        <ImageButton
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/double_space_height"
+            android:background="@drawable/selector_startbutton" />
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_home_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/home_page_banner">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
+
+    <!--android:stateListAnimator="@animator/raised_button"-->

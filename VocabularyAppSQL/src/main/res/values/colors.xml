@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="burak_background">#fafafa</color>
+    <color name="burak_text_color">#424242</color>
+    <color name="burak_summary_color">#00BCD4</color>
+    <color name="burak_selection_background">#eeeeee</color>
+    <color name="burak_correct_color">#00BCD4</color>
+    <color name="burak_false_color">#e91e63</color>
+    <color name="burak_top_bar">#d81b60</color>
+    <color name="burak_mektup_gri">#212121</color>
+    <color name="burak_tie_message_color">#4CAF50</color>
+    <color name="light_black">#b3000000</color>
+    <color name="classic_black">#000000</color>
+    <color name="classic_white">#FFFFFF</color>
+</resources>

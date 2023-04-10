@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rankingfirst_button"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/overall_question_id"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_weight="0.5"
+            android:text="#1"
+            android:textColor="@color/burak_text_color"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_marginBottom="@dimen/low_padding"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/overall_test_date"
+                style="@style/overall_summary_text_style"
+                android:text="yyyy-MM-dd" />
+
+            <TextView
+                android:id="@+id/overall_test_type"
+                style="@style/overall_summary_text_style"
+                android:text="En-En\nHighly Advanced" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/low_padding"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/overall_correct_answer"
+                    style="@style/overall_summary_text_style"
+                    android:text="Correct: 7" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/overall_wrong_answer"
+                    style="@style/overall_summary_text_style"
+                    android:text="Wrong: 7" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/overall_empty_answer"
+                    style="@style/overall_summary_text_style"
+                    android:text="Empty: 7" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/success_rate"
+            android:textSize="14sp"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_gravity="center_vertical"
+            style="@style/overall_summary_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="%85"
+            />
+    </LinearLayout>
+
+</FrameLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content">-->
+
+<!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:background="@drawable/rankingfirst_button"-->
+    <!--android:orientation="horizontal">-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/overall_question_id"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/activity_vertical_margin"-->
+        <!--android:layout_weight="0.5"-->
+        <!--android:text="#1"-->
+        <!--android:textColor="@color/burak_text_color"-->
+        <!--android:textSize="14sp" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_marginBottom="@dimen/low_padding"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginRight="@dimen/activity_vertical_margin"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1.5"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/overall_test_date"-->
+            <!--style="@style/overall_summary_text_style"-->
+            <!--android:text="yyyy-MM-dd" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/overall_test_type"-->
+            <!--style="@style/overall_summary_text_style"-->
+            <!--android:text="En-En\nHighly Advanced" />-->
+    <!--</LinearLayout>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_marginLeft="@dimen/activity_vertical_margin"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="@dimen/low_padding"-->
+        <!--android:layout_weight="1.5"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--&gt;-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/overall_correct_answer"-->
+                <!--style="@style/overall_summary_text_style"-->
+                <!--android:text="Correct: 7" />-->
+        <!--</FrameLayout>-->
+
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="horizontal"-->
+            <!--&gt;-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/overall_wrong_answer"-->
+                <!--style="@style/overall_summary_text_style"-->
+                <!--android:text="Wrong: 7" />-->
+        <!--</FrameLayout>-->
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="horizontal"-->
+            <!--&gt;-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/overall_empty_answer"-->
+                <!--style="@style/overall_summary_text_style"-->
+                <!--android:text="Empty: 7" />-->
+        <!--</FrameLayout>-->
+
+    <!--</LinearLayout>-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/success_rate"-->
+        <!--android:textSize="14sp"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--style="@style/overall_summary_text_style"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0.75"-->
+        <!--android:text="%85"-->
+        <!--/>-->
+<!--</LinearLayout>-->
+
+<!--</FrameLayout>-->
+
+
+
+
+

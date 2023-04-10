@@ -1,0 +1,75 @@
+{
+  "project_info": {
+    "project_number": "187051709652",
+    "firebase_url": "https://evoq-toefl-gre-ielts-toe-493.firebaseio.com",
+    "project_id": "evoq---toefl-gre-ielts-toe-493",
+    "storage_bucket": "evoq---toefl-gre-ielts-toe-493.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187051709652:android:4c402baf3ff8ff1a",
+        "android_client_info": {
+          "package_name": "com.englishvocabularygame.evog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187051709652-q1qeoid3l6b26aoojq14549h2b32th3o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.englishvocabularygame.evog",
+            "certificate_hash": "dc02a089a4c454090196e5883ef6550d9701a09b"
+          }
+        },
+        {
+          "client_id": "187051709652-pobuq92ogh9nnn1tmcu0vk8l9fdr1q8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.englishvocabularygame.evog",
+            "certificate_hash": "f5109a4ef48dff486901334477117553a81e18c9"
+          }
+        },
+        {
+          "client_id": "187051709652-0ei9btaorkkb44ik998b2ljjj5nd23bg.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "187051709652-eq5uerlceqr2pombau7hj3kf8igh6dgp.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "187051709652-7bvnmdgpuhq8g39esl4avv2n03qq1lnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.englishvocabularygame.evog",
+            "certificate_hash": "52c67b6d8af4fdc72c3ed0aebd6d83d00dae47c6"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhmQw7_B4QsRfRhzgovHHYPwBE67QUVTA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187051709652-0ei9btaorkkb44ik998b2ljjj5nd23bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

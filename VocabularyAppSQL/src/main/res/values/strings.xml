@@ -1,0 +1,172 @@
+<resources>
+    <!--Settings Strings-->
+    <string name="vibration_setting">Vibration selection</string>
+    <string name="vibration_text">Vibrates with the wrong answer</string>
+    <string name="number_of_questions_text">Number of questions in a test</string>
+    <string name="number_of_questions">Number of questions</string>
+    <string name="comments_requests_title">Comments and Requests</string>
+    <string name="comments_requests_text">Send your comments and suggestions</string>
+    <string name="scoring_info">Scoring</string>
+
+    <!--Summary Strings-->
+    <string name="summary_correct_answers">Correct</string>
+    <string name="correct_summary">Correct: </string>
+    <string name="wrong_summary">Wrong: </string>
+    <string name="empty_summary">Empty: </string>
+    <string name="success_rate">Success Rate: </string>
+    <string name="asked_question">Question</string>
+    <string name="user_answer">User \nAnswer</string>
+    <string name="test_summary">Test Summary</string>
+    <string name="click_to_see_details">Please click on test results \nto see the details</string>
+
+    <!--Achievements-->
+    <string name="app_id" translatable="false">187051709652</string>
+    <string name="achievement_TOEFL_i_code" translatable="false">CgkI1Kma6bgFEAIQAQ</string>
+    <string name="achievement_TOEFL_ii_code" translatable="false">CgkI1Kma6bgFEAIQAg</string>
+    <string name="achievement_TOEFL_iii_code" translatable="false">CgkI1Kma6bgFEAIQAw</string>
+    <string name="achievement_TOEFL_iv_code" translatable="false">CgkI1Kma6bgFEAIQBA</string>
+    <string name="achievement_TOEFL_v_code" translatable="false">CgkI1Kma6bgFEAIQBQ</string>
+    <string name="achievement_TOEFL_vi_code" translatable="false">CgkI1Kma6bgFEAIQBg</string>
+
+    <string name="achievement_TOEIC_i_code" translatable="false">CgkI1Kma6bgFEAIQBw</string>
+    <string name="achievement_TOEIC_ii_code" translatable="false">CgkI1Kma6bgFEAIQCA</string>
+    <string name="achievement_TOEIC_iii_code" translatable="false">CgkI1Kma6bgFEAIQCg</string>
+    <string name="achievement_TOEIC_iv_code" translatable="false">CgkI1Kma6bgFEAIQCw</string>
+    <string name="achievement_TOEIC_v_code" translatable="false">CgkI1Kma6bgFEAIQDA</string>
+    <string name="achievement_TOEIC_vi_code" translatable="false">CgkI1Kma6bgFEAIQDQ</string>
+
+    <string name="achievement_GRE_i_code" translatable="false">CgkI1Kma6bgFEAIQDg</string>
+    <string name="achievement_GRE_ii_code" translatable="false">CgkI1Kma6bgFEAIQDw</string>
+    <string name="achievement_GRE_iii_code" translatable="false">CgkI1Kma6bgFEAIQEA</string>
+    <string name="achievement_GRE_iv_code" translatable="false">CgkI1Kma6bgFEAIQEQ</string>
+    <string name="achievement_GRE_v_code" translatable="false">CgkI1Kma6bgFEAIQEg</string>
+    <string name="achievement_GRE_vi_code" translatable="false">CgkI1Kma6bgFEAIQEw</string>
+
+    <string name="achievement_IELTS_i_code" translatable="false">CgkI1Kma6bgFEAIQFA</string>
+    <string name="achievement_IELTS_ii_code" translatable="false">CgkI1Kma6bgFEAIQFQ</string>
+    <string name="achievement_IELTS_iii_code" translatable="false">CgkI1Kma6bgFEAIQFg</string>
+    <string name="achievement_IELTS_iv_code" translatable="false">CgkI1Kma6bgFEAIQFw</string>
+    <string name="achievement_IELTS_v_code" translatable="false">CgkI1Kma6bgFEAIQGA</string>
+    <string name="achievement_IELTS_vi_code" translatable="false">CgkI1Kma6bgFEAIQGQ</string>
+
+    <!--Achievements Fragment-->
+    <string name="achievement_TOEFL_i">TOEFL I</string>
+    <string name="achievement_TOEFL_ii">TOEFL II</string>
+    <string name="achievement_TOEFL_iii">TOEFL III</string>
+    <string name="achievement_TOEFL_iv">TOEFL IV</string>
+    <string name="achievement_TOEFL_v">TOEFL V</string>
+    <string name="achievement_TOEFL_vi">TOEFL VI</string>
+
+    <string name="achievement_TOEIC_i">TOEIC I</string>
+    <string name="achievement_TOEIC_ii">TOEIC II</string>
+    <string name="achievement_TOEIC_iii">TOEIC III</string>
+    <string name="achievement_TOEIC_iv">TOEIC IV</string>
+    <string name="achievement_TOEIC_v">TOEIC V</string>
+    <string name="achievement_TOEIC_vi">TOEIC VI</string>
+    
+    <string name="achievement_GRE_i">GRE I</string>
+    <string name="achievement_GRE_ii">GRE II</string>
+    <string name="achievement_GRE_iii">GRE III</string>
+    <string name="achievement_GRE_iv">GRE IV</string>
+    <string name="achievement_GRE_v">GRE V</string>
+    <string name="achievement_GRE_vi">GRE VI</string>
+
+    <string name="achievement_IELTS_i">IELTS I</string>
+    <string name="achievement_IELTS_ii">IELTS II</string>
+    <string name="achievement_IELTS_iii">IELTS III</string>
+    <string name="achievement_IELTS_iv">IELTS IV</string>
+    <string name="achievement_IELTS_v">IELTS V</string>
+    <string name="achievement_IELTS_vi">IELTS VI</string>
+
+
+    <string name="achievement_TOEFL_i_desc">Finish one TOEFL test</string>
+    <string name="achievement_TOEFL_ii_desc">No wrong answers at TOEFL tests</string>
+    <string name="achievement_TOEFL_iii_desc">Get 50 correct answers at TOEFL tests</string>
+    <string name="achievement_TOEFL_iv_desc">Finish 100 questions at TOEFL test</string>
+    <string name="achievement_TOEFL_v_desc">Finish 200 questions at TOEFL test</string>
+    <string name="achievement_TOEFL_vi_desc">Get 100 correct answers at TOEFL tests</string>
+
+    <string name="achievement_TOEIC_i_desc">Finish one TOEIC test</string>
+    <string name="achievement_TOEIC_ii_desc">No wrong answers at TOEIC tests</string>
+    <string name="achievement_TOEIC_iii_desc">Get 50 correct answers at TOEIC tests</string>
+    <string name="achievement_TOEIC_iv_desc">Finish 100 questions at TOEIC test</string>
+    <string name="achievement_TOEIC_v_desc">Finish 200 questions at TOEIC test</string>
+    <string name="achievement_TOEIC_vi_desc">Get 100 correct answers at TOEIC tests</string>
+
+    <string name="achievement_GRE_i_desc">Finish one GRE test</string>
+    <string name="achievement_GRE_ii_desc">No wrong answers at GRE test</string>
+    <string name="achievement_GRE_iii_desc">Get 50 correct answers at GRE tests</string>
+    <string name="achievement_GRE_iv_desc">Finish 100 questions at GRE tests</string>
+    <string name="achievement_GRE_v_desc">Finish 200 questions at GRE tests</string>
+    <string name="achievement_GRE_vi_desc">Get 100 correct answers at GRE tests</string>
+
+    <string name="achievement_IELTS_i_desc">Finish one IELTS test</string>
+    <string name="achievement_IELTS_ii_desc">No wrong answers at IELTS test</string>
+    <string name="achievement_IELTS_iii_desc">Get 50 correct answers at IELTS tests</string>
+    <string name="achievement_IELTS_iv_desc">Finish 100 questions at IELTS tests</string>
+    <string name="achievement_IELTS_v_desc">Finish 200 questions at IELTS tests</string>
+    <string name="achievement_IELTS_vi_desc">Get 100 correct answers at IELTS tests</string>
+
+    <string name="experience_points_5" translatable="false">5xp</string>
+    <string name="experience_points_10" translatable="false">10xp</string>
+    <string name="experience_points_15" translatable="false">15xp</string>
+    <string name="experience_points_20" translatable="false">20xp</string>
+
+    <string name="no_connection_go_profile">No Google Play Connection \nPlease Go Profile Page to Login</string>
+
+
+    <!--Home Page-->
+    <string name="select_question">Question Type</string>
+
+    <!--Difficulty Level-->
+    <string name="exit_application">Exit application</string>
+    <string name="confirm_exit">Do you really want to exit</string>
+    <string name="approve_exit">Yes</string>
+    <string name="no_exit">No</string>
+    <!--Profile Activity Page-->
+    <string name="settings_page">Settings / Info</string>
+    <string name="instructions_text">Each correct answer is 10 points.</string>
+    <string name="signed_in_google_play">Welcome </string>
+    <string name="not_signed">Sign in to see The High Scores</string>
+    <string name="leader_board_id" translatable="false">CgkI1Kma6bgFEAIQAA</string>
+    <string name="sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
+    <!--<string name="you_are_signed_in" translatable="false">You are signed in with Google.</string>-->
+    <string name="signin_other_error" translatable="false">There was an issue with sign in. Please try again later.</string>
+    <!--Profile Activity Page-->
+    <!--Level categories-->
+    <string name="rookie">Rookie</string>
+    <string name="skilled">Skilled</string>
+    <string name="experienced">Experienced</string>
+    <string name="master">Master</string>
+    <string name="average_time">Average time per question</string>
+    <string name="highest_score">Total points</string>
+    <string name="earned_score">Earned points</string>
+    <string name="level">Level</string>
+    <string name="correct_answer_count">Correct Answers</string>
+    <string name="wrong_answer_count">Wrong Answers</string>
+    <string name="action_bar_gre">GRE Questions</string>
+    <string name="action_bar_ielts">IELTS Questions</string>
+    <string name="action_bar_toefl">TOEFL Questions</string>
+    <string name="action_bar_toeic">TOEIC Questions</string>
+    <string name="second">&#160;s</string>
+    <!--Test Fragment-->
+    <string name="time_is_up">Time is up</string>
+    <string name="answer_is_correct">Answer is correct</string>
+    <string name="answer_is_false">Answer is false</string>
+    <string name="summary_page_title">Test Summary</string>
+    <string name="no_life">You are out of lives! Please watch ads, or wait for the remaining time!</string>
+    <string name="video_failed">Failed to show video advertisement. Please check your network connection or Google-Sign in and try again.</string>
+
+    <!--AdMob bilgiler-->
+    <string name="profile_page_banner" translatable="false">ca-app-pub-7568605238512922/7120532037</string>
+    <string name="interstitial_full_screen_summary_activity" translatable="false">ca-app-pub-7568605238512922/8294012903</string>
+    <string name="home_page_banner" translatable="false">ca-app-pub-7568605238512922/8050470329</string>
+    <string name="multiplayer_summary" translatable="false">ca-app-pub-7568605238512922/7929696537</string>
+    <string name="addmop_id" translatable="false">ca-app-pub-7568605238512922~3468706416</string>
+    <string name="reward_ads_id" translatable="false">ca-app-pub-7568605238512922/3292967662</string>
+    <!--AdMob bilgiler-->
+
+    <!--Inside Manifest -->
+    <string name="app_name">EVOQ - TOEFL GRE IELTS TOEIC VOCABULARY QUIZ</string>
+    <string name="app_name_top_bar">EVOQ - ENGLISH VOCABULARY QUIZ</string>
+</resources>
